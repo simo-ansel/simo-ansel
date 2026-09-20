@@ -1,0 +1,55 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="240" rx="12" fill="url(#background)"/>
+
+  <circle cx="850" cy="40" r="180"
+          fill="#58a6ff"
+          opacity="0.04"/>
+
+  <circle cx="920" cy="180" r="120"
+          fill="#58a6ff"
+          opacity="0.03"/>
+
+  <path d="M0 205 H1000"
+        stroke="#21262d"
+        stroke-width="1"/>
+
+  <text x="70" y="100"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="46"
+        font-weight="700"
+        fill="#f0f6fc">
+    Simone Anselmi
+  </text>
+
+  <text x="73" y="140"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="21"
+        fill="#8b949e">
+    Software Developer · Computer Science
+  </text>
+
+  <rect x="73" y="165" width="110" height="3" rx="2"
+        fill="url(#accent)"/>
+
+  <text x="73" y="195"
+        font-family="monospace"
+        font-size="14"
+        fill="#6e7681">
+    build · learn · improve
+  </text>
+
+</svg>
