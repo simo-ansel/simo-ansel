@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title">
+<title id="title">Simone Anselmi — Software Developer</title>
+
+<defs>
+  <radialGradient id="glow" cx="0.12" cy="0.1" r="0.7">
+    <stop offset="0" stop-color="#3F8F73" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#3F8F73" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1.1" fill="#2C2D31"/>
+  </pattern>
+  <linearGradient id="dotsFade" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+    <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="dotsMask"><rect width="1200" height="320" fill="url(#dotsFade)"/></mask>
+  <clipPath id="card"><rect width="1200" height="320" rx="16"/></clipPath>
+  
+  <radialGradient id="motifMaskFade" cx="0.4" cy="0.5" r="0.58">
+    <stop offset="0.25" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="motifMask" maskUnits="userSpaceOnUse" x="-40" y="-40" width="408" height="289">
+    <rect x="-40" y="-40" width="408" height="289" fill="url(#motifMaskFade)"/>
+  </mask>
+</defs>
+<style>
+  .row { animation: appear .5s ease-out backwards; }
+  @keyframes appear { from { opacity: 0; transform: translateX(-6px); } }
+  @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
+</style>
+
+<g clip-path="url(#card)">
+  <rect width="1200" height="320" fill="#0F0F10"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <rect width="1200" height="320" fill="url(#dots)" mask="url(#dotsMask)"/>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#2C2D31"/>
+<g transform="translate(64 0)"><text x="0" y="88" font-family="ui-monospace, &quot;SF Mono&quot;, &quot;Cascadia Code&quot;, &quot;JetBrains Mono&quot;, Menlo, Consolas, monospace" font-size="15" fill="#59B394" letter-spacing="1.2">~/simo-ansel</text><text x="0" y="144" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#F5F5F5" letter-spacing="-1">Simone Anselmi</text><text x="0" y="186" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="25" fill="#D1D5DB">Software Developer</text><text x="0" y="222" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="17" fill="#9CA3AF">Computer Science · University of Parma</text><rect x="0" y="246" width="56" height="3" rx="1.5" fill="#3F8F73"/></g>
+<g transform="translate(749.2 45.0) scale(1.1)">
+<g mask="url(#motifMask)"><g class="row" style="animation-delay:0.10s"><rect x="0.0" y="0.0" width="64" height="9" rx="4.5" fill="#59B394" fill-opacity="0.62"/><rect x="74.0" y="0.0" width="118" height="9" rx="4.5" fill="#3A3C42"/></g><g class="row" style="animation-delay:0.19s"><rect x="30.0" y="20.0" width="82" height="9" rx="4.5" fill="#59B394" fill-opacity="0.62"/><rect x="122.0" y="20.0" width="54" height="9" rx="4.5" fill="#28292E"/><rect x="186.0" y="20.0" width="132" height="9" rx="4.5" fill="#3A3C42"/></g><g class="row" style="animation-delay:0.28s"><rect x="60.0" y="40.0" width="146" height="9" rx="4.5" fill="#28292E"/><rect x="216.0" y="40.0" width="72" height="9" rx="4.5" fill="#3F8F73" fill-opacity="0.5"/></g><g class="row" style="animation-delay:0.37s"><rect x="60.0" y="60.0" width="58" height="9" rx="4.5" fill="#59B394" fill-opacity="0.62"/><rect x="128.0" y="60.0" width="176" height="9" rx="4.5" fill="#28292E"/></g><g class="row" style="animation-delay:0.46s"><rect x="30.0" y="80.0" width="38" height="9" rx="4.5" fill="#28292E"/></g><g class="row" style="animation-delay:0.64s"><rect x="30.0" y="120.0" width="92" height="9" rx="4.5" fill="#59B394" fill-opacity="0.62"/><rect x="132.0" y="120.0" width="138" height="9" rx="4.5" fill="#3F8F73" fill-opacity="0.5"/></g><g class="row" style="animation-delay:0.73s"><rect x="60.0" y="140.0" width="112" height="9" rx="4.5" fill="#28292E"/><rect x="182.0" y="140.0" width="84" height="9" rx="4.5" fill="#3A3C42"/><rect x="276.0" y="140.0" width="52" height="9" rx="4.5" fill="#28292E"/></g><g class="row" style="animation-delay:0.82s"><rect x="60.0" y="160.0" width="168" height="9" rx="4.5" fill="#28292E"/></g><g class="row" style="animation-delay:0.91s"><rect x="30.0" y="180.0" width="38" height="9" rx="4.5" fill="#28292E"/></g><g class="row" style="animation-delay:1.00s"><rect x="0.0" y="200.0" width="26" height="9" rx="4.5" fill="#28292E"/></g></g>
+</g>
+</svg>
